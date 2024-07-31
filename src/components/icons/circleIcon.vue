@@ -1,0 +1,9 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M22 12c0 4.97-4.477 9-10 9S2 16.97 2 12s4.477-9 10-9s10 4.03 10 9" color="currentColor"></path></svg>
+</template>
+
+<script>
+export default {
+  name: 'HugeiconsOval'
+}
+</script>

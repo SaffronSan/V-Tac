@@ -1,0 +1,95 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+  @apply p-0 m-0;
+}
+body{
+  @apply bg-zinc-200 dark:bg-zinc-900 dark:text-white;
+  font-family: "Concert One";
+}
+
+.dark-theme{
+  @apply ease-in transition text-black bg-white dark:text-white dark:bg-zinc-800 ;
+}
+.nav-links{
+  @apply ease-in transition p-2 text-center w-full bg-white dark:bg-zinc-900  hover:bg-neutral-200 dark:hover:bg-neutral-700;
+}
+.active-link{
+  @apply bg-black text-white hover:bg-neutral-700 dark:bg-black;
+}
+.art-head{
+  @apply rounded-tr-3xl shadow-xl p-4 md:p-10 text-2xl md:text-5xl;
+}
+.art-body{
+  @apply p-2 md:p-8 rounded-br-3xl text-xl md:text-2xl;
+}
+.btn{
+  @apply text-white bg-zinc-800 hover:bg-zinc-700 dark:bg-zinc-950 dark:hover:bg-zinc-900 p-4 rounded-lg;
+}
+.nav-btn{
+  @apply border-b-2 border-sky-600 hover:border-b-2 hover:border-white;
+}
+.hme-art{
+  @apply text-lg p-3 rounded-lg;
+}
+
+.play-be{
+  font-family: "Playwrite BE VLG", cursive;
+}
+.shantell-sans{
+  font-family : 'Shantell Sans';
+}
+.josefin-sans{
+  font-family: 'Josefin Sans';
+}
+.yanone-kaffeesatz{
+  font-family:'Yanone Kaffeesatz';
+}
+.kalam{
+  font-family: 'Kalam';
+  font-weight: 700;
+}
+
+@keyframes width-expand {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.sep-width {
+  animation-name: width-expand;
+  animation-duration: 4s;
+  animation-iteration-count: 1; /* Run the animation only once */
+  animation-fill-mode: forwards; /* Retain the final state of the animation */
+  width: 0%; /* Initial width */
+  transition: width 1s ease-in-out;
+}
+.dia-0{
+  @apply rotate-45 translate-y-44 md:translate-y-96 right-0;
+}
+.dia-1{
+  @apply -rotate-45 translate-y-44 md:translate-y-96 left-0;
+}
+.cols-0{
+  @apply rotate-90 translate-y-48 right-[7.8rem] md:translate-y-0 md:top-1/2 md:right-64;
+}
+.cols-1{
+  @apply rotate-90 translate-y-48 md:translate-y-0 md:top-1/2;
+}
+.cols-2{
+  @apply rotate-90 translate-y-48 left-[7.8rem] md:top-1/2 md:translate-y-0 md:left-64;
+}
+.horz-0{
+  @apply top-14 md:top-32;
+}
+.horz-1{
+  @apply top-1/2;
+}
+.horz-2{
+  @apply bottom-14 md:bottom-32 ;
+}
