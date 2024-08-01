@@ -3,7 +3,7 @@ import { createMemoryHistory, createRouter } from 'vue-router'
 import App from './App.vue';
 import gameMode from './pages/gameMode.vue';
 import home from './pages/home.vue';
-import '../public/main.css';
+import './main.css';
 import "./tailwind.css";
 
 
