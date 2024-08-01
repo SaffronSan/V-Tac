@@ -8,12 +8,5 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
   plugins: [vue()],
-  base: process.env.NODE_ENV === 'production' ? '/V-Tac/' : '/',
-  build: {
-    rollupOptions: {
-      output: {
-        assetFileNames: './assets/blocks.jpg',
-      },
-    },
-  },
+  base: process.env.NODE_ENV === 'production' ? '/V-Tac/' : '/'
 });

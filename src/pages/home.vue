@@ -8,7 +8,7 @@
         </div>
         
        <div class="w-full flex justify-center mx-auto p-10 art-body dark-theme">
-         <img class="rounded-3xl w-[50rem] border-4 border-black" src='/blocks.jpg'/>
+         <img class="rounded-3xl w-[50rem] border-4 border-black" :src='blocks'/>
        </div>
         
       </article>
@@ -49,6 +49,7 @@
    import viteIcon from '../components/icons/viteIcon.vue';
    import replitIcon from '../components/icons/replitIcon.vue';
    import circleIcon from '../components/icons/circleIcon.vue';
+   import blocks from '/blocks.jpg';
     const iconsArr = [
       {
         name: 'Vue',
