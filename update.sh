@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 git add .
-git commit -m "Fixed Image pt-3"
+git commit -m "Final Image fix"
 git push origin main
