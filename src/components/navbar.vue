@@ -20,7 +20,6 @@
     import homeIcon from './icons/homeIcon.vue';
     import gameIcon from './icons/gameIcon.vue'
     const arrIcon = {light: moonIcon,dark: sunIcon}, theme = ref(localStorage.theme);
-    console.log(arrIcon['dark'])
     function toggleTheme(){
         if(localStorage.theme === "dark"){
             localStorage.theme = "light";

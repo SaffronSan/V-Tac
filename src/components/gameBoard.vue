@@ -54,7 +54,6 @@
   //Reactive variables 
   const base = ref({board : [], taken : 0}), {p1,p2} = state, turn = ref(false),
     finsher = ref({player:'n/a',exact: "n/a", cause:""}),{collBoos,bot} = defineProps(['collBoos','bot']);
-  console.log(p1);
   //Bot functions
   function botExe(){
     if(bot.name.includes("Easy")){

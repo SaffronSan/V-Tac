@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        assetFileNames: 'assets/[name].[hash][extname]',
+        assetFileNames: '../assets/blocks.jpg',
       },
     },
   },
