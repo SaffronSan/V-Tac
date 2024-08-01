@@ -7,10 +7,9 @@
           <router-link class="md:text-3xl rounded-full p-4 w-48 btn" to="/game">Play</router-link>
         </div>
         
-       <div class="w-full flex justify-center mx-auto p-10 art-body dark-theme">
-         <img class="rounded-3xl w-[50rem] border-4 border-black" :src='blocks'/>
+       <div class="w-full flex justify-center mx-auto p-10 md:p-16 art-body dark-theme">
+         <img class="sefl-center rounded-3xl md:w-[50rem] border-4 border-black" :src='blocks'/>
        </div>
-        
       </article>
       
       <article class="snap-center">

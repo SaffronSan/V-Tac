@@ -1,14 +1,14 @@
 <template>
-  <main class='pr-4 md:pr-6 space-y-8'>
-    <article class="space-y-2 relative my-4 md:my-0" v-if="!collBoos.menuBoo">
+  <main class='pr-4 md:pr-6 space-y-8 scroll-smooth snap-y'>
+    <article class="space-y-2 relative my-4 md:my-0 snap-center" v-if="!collBoos.menuBoo">
       <gameBoard :collBoos="collBoos" :bot="bot"/>
     </article>
     
     <article v-if="collBoos.menuBoo" class="flex md:block">
-      <gameMenu :collBoos="collBoos" :bot="bot"/>
+      <gameMenu/>
     </article>
     
-    <article v-if="collBoos.menuBoo" class="">
+    <article v-if="collBoos.menuBoo" class="snap-center">
       <div class="art-head p-2 px-4 dark-theme">
         <h3 class="">Rules:</h3>
       </div>
@@ -23,7 +23,7 @@
        
       </div>
     </article>
-    <article v-if="collBoos.menuBoo" class="">
+    <article v-if="collBoos.menuBoo" class="snap-center">
       <div class="art-head p-2 px-4 dark-theme">
         <h3>Game Modes</h3>
       </div>
