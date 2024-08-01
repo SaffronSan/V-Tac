@@ -8,7 +8,7 @@
         </div>
         
        <div class="w-full flex justify-center mx-auto p-10 art-body dark-theme">
-         <img class="rounded-3xl w-[50rem] border-4 border-black" src='../images/blocks.jpg'/>
+         <img class="rounded-3xl w-[50rem] border-4 border-black" src='assets/blocks.jpg'/>
        </div>
         
       </article>

@@ -1,12 +1,14 @@
 {
-  "name": "vuejs-with-vite",
+  "name": "V-Tac",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "deploy": "npm run build && gh-pages -d dist",
+    "build": "vite build",  
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "vue": "^3.3.4",
     "vue-material-design-icons": "^5.3.0",
     "vue-router": "^4.4.0"

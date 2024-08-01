@@ -12,6 +12,4 @@ const router = createRouter({
   routes: [{ path: '/', redirect: '/Home' },{path:'/Home',component : home},{path:'/Game',component : gameMode}],
 })
 
-
-
 createApp(App).use(router).mount('#app')
